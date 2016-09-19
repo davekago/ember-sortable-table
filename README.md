@@ -7,6 +7,8 @@ Simple sortable table built in ember
 # Run
 `cd ember-sortable-table` or directory name you provided during clone
 
+`npm install && bower install`
+
 `ember server`
 
 # Brower
