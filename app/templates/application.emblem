@@ -1,0 +1,7 @@
+h2
+  = link-to 'People Tracker' 'application'
+ul
+  li
+    = link-to 'Scientists' 'scientists'
+
+== outlet

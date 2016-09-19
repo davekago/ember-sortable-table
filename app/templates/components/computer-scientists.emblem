@@ -1,0 +1,10 @@
+table
+  thead
+    tr
+      each columns as |column|
+        = scientists-header column=column action='resetSort'
+  tbody
+    each sortedModel as |scientist|
+      tr
+        each columns as |column|
+          td == scientist-attr scientist column
